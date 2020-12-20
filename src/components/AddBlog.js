@@ -4,7 +4,6 @@ import "easymde/dist/easymde.min.css";
 import ReactMarkdown from "react-markdown";
 import { Consumer } from "../context";
 import { v4 as uuid } from "uuid";
-import axios from "axios";
 
 class AddBlog extends Component {
   state = {
@@ -28,23 +27,10 @@ class AddBlog extends Component {
     });
   };
 
-  onSubmit = async (handler, event) => {
+  onSubmit = (handler, event) => {
     event.preventDefault();
 
-    const newBlog = {
-      id: uuid(),
-      imageUrl: this.state.imageUrl,
-      title: this.state.title,
-      excerpt: this.state.excerpt,
-      body: this.state.body,
-    };
-
-    const response = await axios.post(
-      "http://127.0.0.1:9000/api/blog",
-      newBlog
-    );
-
-    const isSuccessful = response.data.isSuccessful;
+    let isSuccessful = true;
 
     if (isSuccessful) {
       this.setState({
@@ -57,6 +43,14 @@ class AddBlog extends Component {
         submitMessageTextColor: "text-danger",
       });
     }
+
+    const newBlog = {
+      id: uuid(),
+      imageUrl: this.state.imageUrl,
+      title: this.state.title,
+      excerpt: this.state.excerpt,
+      body: this.state.body,
+    };
 
     handler("ADD_BLOG", newBlog);
   };

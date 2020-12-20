@@ -7,7 +7,7 @@ function About() {
           <h1 className="text-center font-weight-light">
             <span className="text-info">About</span> me
           </h1>
-          <div className="lead">I can develop the front and the back of an app</div>
+          <div className="lead">I can develop websites and web apps</div>
           <div className="row">
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>What I can do?</h5>

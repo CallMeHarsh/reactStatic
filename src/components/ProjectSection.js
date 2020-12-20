@@ -9,7 +9,7 @@ function ProjectSection() {
         {(value) => {
             const {projects} = value;
     return(
-        <div className="container text-center my-5">
+        <div className="container text-center my-5" id="project">
                     <h1 className="font-weight-light"><span className="text-info">My</span> Projects</h1>
                     <div className="lead py-3">I build products, just like this website</div>
                     <div className="row my-5 pt-3">

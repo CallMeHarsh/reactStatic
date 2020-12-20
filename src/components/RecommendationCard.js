@@ -10,7 +10,7 @@ function RecommendationCard(props) {
                             {message}
                         </h4>
                         <p className="card-text text-secondary mb-0">{name}</p>
-                        <p className="card-text text-secondary">{ designation } at { company } </p>  
+                        <p className="card-text text-secondary">{ designation }  { company } </p>  
                     </div>
                 </div>
     </div>

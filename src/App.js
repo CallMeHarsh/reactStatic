@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import WriteRecommendation from './components/WriteRecommendation';
+//import WriteRecommendation from './components/WriteRecommendation';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NotFound from './components/NotFound';
 import ProjectPage from './components/ProjectPage';
@@ -26,7 +26,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/write-a-recommendation" component={WriteRecommendation} />
+          {/* <Route exact path="/write-a-recommendation" component={WriteRecommendation} /> */}
           <Route exact path="/all-projects" component={AllProjects} />
           <Route exact path="/blog/add" component={AddBlog} />
           <Route exact path="/project/add" component={AddProject} />

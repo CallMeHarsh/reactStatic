@@ -12,7 +12,7 @@ function Title() {
                 <div className="font-weight-light" style={{fontSize: "50px"}}>
                 Hi, I am <span className="text-info">Harsh</span>
                 </div>
-                <h4 className="font-weight-light">I am a freelancer from India</h4>
+                <h4 className="font-weight-light">I am a webdeveloper from India</h4>
             </div>
         </div>
         </div>
