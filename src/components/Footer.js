@@ -28,16 +28,16 @@ function Footer() {
 
                 </div>
                 <div className="col-12 col-md-4 text-light text-justify py-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                     ex hic nam libero. Accusamus necessitatibus aut quo adipisci
-                      minima inventore labore ea temporibus facere. Explicabo, minima
-                       aperiam? Adipisci, quod quis!
+                    To contact me please use linkedin. Recommendation
+                    Section will not work as currently I am not able to upload any db 
+                    to cloud. Also if you have any suggetions please tell me!
+                    I never said or mantioned that I wrote those blogs.
                 </div>
                 <div className="col-12 col-md-4 py-3">
                     <h5 className="text-info pb-3">Social</h5>
-                    <a href="#"><i className="fa fa-linkedin fa-lg text-light d-block py-1"></i></a>
-                    <a href="#"><i className="fa fa-github fa-lg text-light d-block py-1"></i></a>
-                    <a href="#"><i className="fa fa-envelope fa-lg text-light d-block py-1"></i></a>
+                    <a href="https://www.linkedin.com/in/harsh-shukla-b20bb818a/"><i className="fa fa-linkedin fa-lg text-light d-block py-1"></i></a>
+                    <a href="https://github.com/CallMeHarsh"><i className="fa fa-github fa-lg text-light d-block py-1"></i></a>
+                    <a href="https://twitter.com/CallMe_Harsh"><i className="fa fa-twitter fa-lg text-light d-block py-1"></i></a>
 
                 </div>
 

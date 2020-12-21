@@ -9,7 +9,7 @@ function BlogSection() {
       {(value) => {
         const { blogs } = value;
         return (
-          <div className="container text-center my-5">
+          <div className="container text-center my-5" id="blog">
             <h1 className="font-weight-light">
               My <span className="text-info">Blogs</span>
             </h1>

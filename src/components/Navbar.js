@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-sm fixed-top bg-white">
         <div className="container my-2">
             <Link to="/" className="navbar-brand text-dark font-weight-bold">
-            <span><img src={smokeLogo1} width="50" height="30" alt="" loading="lazy" /></span> Smoke|Creation
+            <span><img src={smokeLogo1} width="50" height="30" alt="" loading="lazy" /></span> Home
                 </Link>
                 <Link to="/contact" className="ml-auto mx-3">
                     <button className="btn btn-outline-info ml-auto mx-3">

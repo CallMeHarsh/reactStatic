@@ -51,9 +51,9 @@ export class Provider extends Component {
         id: 3,
         title: "Project 3",
         imageUrl:
-          "https://i.ibb.co/dfbpNZ0/form.png",
-        excerpt: "This is survey form...",
-        body: "AAaaahh , just a simple form, nothing special, but it is responsive. Take a look https://callmeharsh.github.io/simpleForm/",
+          "https://i.ibb.co/txNTdgm/documentation.png",
+        excerpt: "This is simple documentation...",
+        body: "AAaaahh , just a simple documentation, nothing special, but it is responsive. Take a look https://callmeharsh.github.io/documentation/",
       },
       {
         id: 4,
@@ -67,7 +67,7 @@ export class Provider extends Component {
     blogs: [
       {
         id: 1,
-        title: "THINKING ABOUT NOTHING",
+        title: "DEDUCING NOTHING",
         imageUrl:
           "https://inteng-storage.s3.amazonaws.com/img/iea/lV6D1XW1wx/sizes/reflective-thinking-2_resize_md.jpg",
         excerpt: "Looking back at the millennia...",
@@ -75,7 +75,7 @@ export class Provider extends Component {
       },
       {
         id: 2,
-        title: "CAN LIFE HAVE TOO MUCH MEANING",
+        title: "STOP FOCUSING ON MEANING CRAP",
         imageUrl:
           "https://www.scotthyoung.com/blog/wp-content/uploads/2019/06/meaning-moderation.png",
         excerpt: "I’m suspicious of those things...",
@@ -83,9 +83,9 @@ export class Provider extends Component {
       },
       {
         id: 3,
-        title: "How to Lead an Interesting Life and Still Get Stuff Done",
+        title: "LIVE IT LIKE ADVENTURE AND GET THINGS DONE",
         imageUrl:
-          "https://i.ibb.co/vxMNrKN/2020-12-20-23-15-29.jpg",
+          "https://www.peakadventuretour.com/blog/wp-content/uploads/2018/06/Bungee-Jumping-in-India.jpg",
         excerpt: "Is it possible to spend...",
         body: "Is it possible to spend your life having adventures, but still make meaningful accomplishments? The answer to this question matters to me because, like many of you, I’d like to have both.The challenge is that most advice-givers put the two in either-or categories. Being good requires focus, perhaps decades of it. The world tends to rewards people with painstakingly developed talent, not perpetual dabblers.But while I’d like to sustain such a Newportian focus in my life, I crave variety. Psychological time depends on it, so living adventurously may be the secret to compressing the most life into the brief time we have.Is it possible to have both adventure and accomplishment?Most people tend to fall into one category. There are hard-focusing achievement-oriented people. The kind who studied hard all through school but rarely went to parties. And then there are novelty-seeking adventurers who are a lot of fun but often lag years behind their more ambitious peers.One way to explain this clustering is that the two life approaches really are mutually exclusive. The traits and beliefs to fulfill one naturally omit the other. Like being a jockey or a basketball player, the attributes to be good at one contradict the other.However looking deeper, I’ve managed to find many people who don’t fit the pattern. People who seem to possess both in great enough quantities that the two philosophies may not contradict.Richard Feynman is a perfect example. He was a Nobel-laureate and physicist on the Manhattan project. But he was also a painter, lock-picker and bongo player, fluent in Portuguese. I highly recommend his autobiography.This leads me to another explanation for the clustering. People tend to be either ambitious or adventurous, not because those philosophies contradict, but because the attributes you need to be good at one are different.Instead of a jockey or basketball player, it may be closer to being a basketball player and a pianist. It’s not that one skill hurts the other, but simply that the two are orthogonal",
       },

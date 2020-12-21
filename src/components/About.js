@@ -12,37 +12,25 @@ function About() {
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>What I can do?</h5>
               <p className="text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud labore tempor ut labore
-                exercitation.
+              I can make websites and web apps using a variety web technologies,I can manage site functionality and implement application features.
               </p>
             </div>
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>What am I doing currently?</h5>
               <p className="text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud labore tempor ut labore
-                exercitation.
+              Currently, I am doing BTech(ECE) at Thapar University.  Besides that, I work on projects related to electronics and the web regularly. 
               </p>
             </div>
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>What do I believe in?</h5>
               <p className="text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud labore tempor ut labore
-                exercitation.
+              I believe that a lot of things can make life better and worse at the same time, ultimately cancelling both the states and leaving us neutral.
               </p>
             </div>
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>How I can help you?</h5>
               <p className="text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud labore tempor ut labore
-                exercitation.
+                I can hep you make websites and web apps using a variety web technologies,I can manage site functionality and implement application features.
               </p>
             </div>
           </div>
