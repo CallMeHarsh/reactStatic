@@ -33,7 +33,7 @@ function App() {
           <Route exact path="/project/:id" component={ProjectPage} />
           <Route exact path="/blog/:id" component={BlogPage} />
           <Route exact path="/test" component={Test} />
-          <Route component={NotFound} />
+          <Route component={HomePage} />
         </Switch>
         <Footer />
     </BrowserRouter>
