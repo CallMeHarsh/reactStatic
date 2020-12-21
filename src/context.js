@@ -2,6 +2,9 @@ import React, { Component } from "react";
 
 const Context = React.createContext();
 
+var foo = "Visit <a href=\"http://bing.com\">Bing</a>.";
+
+
 export class Provider extends Component {
   handler = (action, newObject) => {
     switch (action) {
@@ -37,7 +40,9 @@ export class Provider extends Component {
         imageUrl:
           "https://i.ibb.co/cc9K6MB/confusion.png",
         excerpt: "This is a restaurant website...",
-        body: "I created this restaurant website, it is fully responsive and smooth. Take a look at website https://callmeharsh.github.io/conFusionRest/index.html",
+        body: "I created this restaurant website, it is fully responsive and smooth.",
+        link: "https://callmeharsh.github.io/conFusionRest/index.html",
+
       },
       {
         id: 2,
@@ -45,7 +50,9 @@ export class Provider extends Component {
         imageUrl:
           "https://i.ibb.co/DbLTV7H/paralax.png",
         excerpt: "This is a tribute page...",
-        body: "This is a tribute page I created for one of may favourate shows. This page is smooth, sexy and responsive with parallax scrolling effect. Take a look https://callmeharsh.github.io/paralax/",
+        body: "This is a tribute page I created for one of may favourate shows. This page is smooth, sexy and responsive with parallax scrolling effect.",
+        link: "https://callmeharsh.github.io/paralax/",
+
       },
       {
         id: 3,
@@ -53,7 +60,8 @@ export class Provider extends Component {
         imageUrl:
           "https://i.ibb.co/txNTdgm/documentation.png",
         excerpt: "This is simple documentation...",
-        body: "AAaaahh , just a simple documentation, nothing special, but it is responsive. Take a look https://callmeharsh.github.io/documentation/",
+        body: "AAaaahh , just a simple documentation, nothing special, but it is responsive.",
+        link: "https://callmeharsh.github.io/documentation/",
       },
       {
         id: 4,
@@ -151,7 +159,7 @@ export class Provider extends Component {
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/bootstrap4.png",
         starsTotal: 3,
-        starsActive: 1,
+        starsActive: 3,
       },
       {
         id: 5,
@@ -159,7 +167,7 @@ export class Provider extends Component {
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/react.png",
         starsTotal: 3,
-        starsActive: 3,
+        starsActive: 2,
       },
       {
         id: 6,
@@ -175,7 +183,7 @@ export class Provider extends Component {
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/python.png",
         starsTotal: 3,
-        starsActive: 3,
+        starsActive: 2,
       },
       {
         id: 8,
@@ -183,7 +191,7 @@ export class Provider extends Component {
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/flask.png",
         starsTotal: 3,
-        starsActive: 2,
+        starsActive: 1,
       },
     ],
   };

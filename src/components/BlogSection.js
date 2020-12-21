@@ -14,7 +14,7 @@ function BlogSection() {
               My <span className="text-info">Blogs</span>
             </h1>
             <div className="lead">
-              I share my views on technologies in these blogs
+              I share my views on various topics related in these blogs
             </div>
             <div className="row my-5 pt-3">
               {blogs.slice(0, 3).map((blog) => (
@@ -25,10 +25,10 @@ function BlogSection() {
             </div>
             <div className="my-5">
               <Link to="/allblogs" className="text-dark text-right">
-                <h5>
+                {/* <h5>
                   See my blogs
                   <i className="fas fa-arrow-right align-middle pl-1"></i>
-                </h5>
+                </h5> */}
               </Link>
             </div>
           </div>

@@ -15,8 +15,9 @@ function BlogPage(props) {
             <div className="justify-content-center">
               <img src={imageUrl} alt={title} className="w-100" />
             </div>
-            <h1 className="font-weight-light text-center my-5">{title}</h1>
+            <h1 className="font-weight-light text-center my-5 bold">{title}</h1>
             <ReactMarkdown source={body} />
+
           </div>
         );
       }}

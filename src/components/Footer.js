@@ -31,7 +31,11 @@ function Footer() {
                     To contact me please use linkedin. Recommendation
                     Section will not work as currently I am not able to upload any db 
                     to cloud. Also if you have any suggetions please tell me!
-                    I never said or mantioned that I wrote those blogs.
+                    I never said or mentioned that I wrote those blogs.
+                    <p></p><p></p>
+                    <p class="text-info font-bold">Special Thanks to Gaurav for Creating that cool logo in navbar!!</p>
+                    <p class="text-info font-italic">Want a cool logo for your web site?<br></br>Contact Gaurav: +91 930064 40760</p>
+
                 </div>
                 <div className="col-12 col-md-4 py-3">
                     <h5 className="text-info pb-3">Social</h5>

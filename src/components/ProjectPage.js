@@ -9,7 +9,7 @@ function ProjectPage(props) {
         const { projects } = value;
         const id = props.match.params.id;
         const project = projects.filter((project) => project.id == id)[0];
-        const { imageUrl, title, body } = project;
+        const { imageUrl, title, body, link } = project;
         return (
           <div className="container py-5 my-5 markdown">
             <div className="justify-content-center">
@@ -17,6 +17,7 @@ function ProjectPage(props) {
             </div>
             <h1 className="font-weight-light text-center my-5">{title}</h1>
             <ReactMarkdown source={body} />
+            <h1><a href={link} target="_blank" className="font-weight-light text-info">Take a look!</a></h1>
           </div>
         );
       }}
