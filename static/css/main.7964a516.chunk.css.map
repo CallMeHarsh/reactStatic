@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,2BACI,YACJ,CAEA,QACI,oBACJ,CAEA,cACI,aAAc,CACd,cAAe,CACf,WACJ","file":"main.7964a516.chunk.css","sourcesContent":[".scroll::-webkit-scrollbar{\n    display: none;\n}\n\n.scroll {\n    scrollbar-width: none;\n}\n\n.markdown img {\n    display: block;\n    max-width: 100%;\n    height: auto;\n}"]}
