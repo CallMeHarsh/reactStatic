@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
+import HashLoader from "react-spinners/HashLoader";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -18,7 +19,29 @@ import Test from './components/Test';
 
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 2000)
+  }, [])
   return (
+  <div className="App">
+    {
+      loading ?
+        <HashLoader
+      //css={override}
+      size={50}
+      //margin={4}
+      color={"#5bc0de "}
+      loading={loading}
+    />
+      
+      :
+
+
+  <header className="App-header">  
   <Provider>
       <BrowserRouter>
       <ScrollToTop />
@@ -38,6 +61,9 @@ function App() {
         <Footer />
     </BrowserRouter>
   </Provider>
+  </header>
+}
+  </div>
     
   
   );
