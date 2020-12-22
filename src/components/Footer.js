@@ -28,13 +28,10 @@ function Footer() {
 
                 </div>
                 <div className="col-12 col-md-4 text-light text-justify py-3">
-                    To contact me please use linkedin. Recommendation
-                    Section will not work as currently I am not able to upload any db 
-                    to cloud. Also if you have any suggetions please tell me!
-                    I never said or mentioned that I wrote those blogs.
+                To contact me, please use Linkedin. Recommendations Section is not yet working as  I am not able to upload any DB to cloud. Also if you have any suggestions, please tell me! I never said or mentioned that I write those blogs. ;)
                     <p></p><p></p>
                     <p class="text-info font-bold">Special Thanks to Gaurav for Creating that cool logo in navbar!!</p>
-                    <p class="text-info font-italic">Want a cool logo for your web site?<br></br>Contact Gaurav: +91 930064 40760</p>
+                    <p class="text-info font-italic">Want a cool logo for your web site?<br></br>Contact Gaurav: <span><u>+91 930064 40760</u></span></p>
 
                 </div>
                 <div className="col-12 col-md-4 py-3">

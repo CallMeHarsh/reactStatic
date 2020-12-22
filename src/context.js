@@ -46,11 +46,11 @@ export class Provider extends Component {
       },
       {
         id: 2,
-        title: "Project 2",
+        title: "Parallax Page",
         imageUrl:
           "https://i.ibb.co/DbLTV7H/paralax.png",
-        excerpt: "This is a tribute page...",
-        body: "This is a tribute page I created for one of may favourate shows. This page is smooth, sexy and responsive with parallax scrolling effect.",
+        excerpt: "This is a simple page...",
+        body: "This is just a page I created for one of may favourate show. This page is smooth, sexy and responsive with parallax scrolling effect.",
         link: "https://callmeharsh.github.io/paralax/",
 
       },
