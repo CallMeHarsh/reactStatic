@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactStatic/static/css/main.b3379ab1.chunk.css",
-    "main.js": "/reactStatic/static/js/main.3c0094c1.chunk.js",
-    "main.js.map": "/reactStatic/static/js/main.3c0094c1.chunk.js.map",
+    "main.js": "/reactStatic/static/js/main.1a9da7e9.chunk.js",
+    "main.js.map": "/reactStatic/static/js/main.1a9da7e9.chunk.js.map",
     "runtime-main.js": "/reactStatic/static/js/runtime-main.73d1d79d.js",
     "runtime-main.js.map": "/reactStatic/static/js/runtime-main.73d1d79d.js.map",
     "static/css/2.37c05595.chunk.css": "/reactStatic/static/css/2.37c05595.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.37c05595.chunk.css.map": "/reactStatic/static/css/2.37c05595.chunk.css.map",
     "static/css/main.b3379ab1.chunk.css.map": "/reactStatic/static/css/main.b3379ab1.chunk.css.map",
     "static/js/2.3a9bf7c2.chunk.js.LICENSE.txt": "/reactStatic/static/js/2.3a9bf7c2.chunk.js.LICENSE.txt",
-    "static/media/ProfileImage2.ee58a9fe.jpg": "/reactStatic/static/media/ProfileImage2.ee58a9fe.jpg",
+    "static/media/ProfileImage1.8fdafc53.png": "/reactStatic/static/media/ProfileImage1.8fdafc53.png",
     "static/media/smokeLogo1.65c37787.png": "/reactStatic/static/media/smokeLogo1.65c37787.png"
   },
   "entrypoints": [
@@ -20,6 +20,6 @@
     "static/css/2.37c05595.chunk.css",
     "static/js/2.3a9bf7c2.chunk.js",
     "static/css/main.b3379ab1.chunk.css",
-    "static/js/main.3c0094c1.chunk.js"
+    "static/js/main.1a9da7e9.chunk.js"
   ]
 }
