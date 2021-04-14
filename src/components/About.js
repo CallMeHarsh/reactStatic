@@ -12,13 +12,13 @@ function About() {
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>What I can do?</h5>
               <p className="text-justify">
-              I can make websites and web apps using a variety web technologies,I can manage site functionality and implement application features.
+              I can make websites and web apps using a variety web technologies,I can Design proffesional looking websites and vector art using figma.
               </p>
             </div>
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>What am I doing currently?</h5>
               <p className="text-justify">
-              Currently, I am doing BTech(ECE) at Thapar University.  Besides that, I work on projects related to electronics and the web regularly. 
+              Currently, I am doing BTech(ECE) at Thapar University.  Besides that, I work on projects related to electronics, design and the web regularly. 
               </p>
             </div>
             <div className="col-12 col-md-6 px-5 pt-5">

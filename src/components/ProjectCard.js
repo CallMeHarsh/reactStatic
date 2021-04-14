@@ -2,16 +2,30 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function ProjectCard(props) {
-const { id, title, excerpt, imageUrl } = props.project; 
+const { id, title, excerpt, imageUrl } = props.project;
+// var sectionStyle = {
+//   backgroundImage: `url(${imageUrl})`
+// }; 
     return (
-        <div className="card shadow h-100">
-        <img src={ imageUrl } className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">{ title }</h5>
-          <p>{ excerpt }</p>
+        <div className="cardbody">
+          
+            <div className="item">
+            <div className="box" style={{backgroundImage: "url(" + imageUrl + ")"}}>
+          {/* <img src={ imageUrl } className="box" alt="..." /> */}
+        <div className="cover">
+          <h5 className="name">{ title }</h5>
+          {/* <p className="title">{ excerpt }</p> */}
+          <img src={ excerpt } className="title" alt="..." />
           <Link to={`/project/${id}`} className="stretched-link"></Link>
-        </div>
-      </div>
+        </div>                  
+            </div>
+          </div>
+          </div>
+
+
+        
+     
+
     );
 
 }

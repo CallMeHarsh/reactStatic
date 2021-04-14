@@ -14,7 +14,7 @@ function ProjectSection() {
                     <div className="lead py-3">I build products, just like this website</div>
                     <div className="row my-5 pt-3">
                             {
-                            projects.slice(0, 3).map((project) =>
+                            projects.slice(0, 6).map((project) =>
                             (
                                 <div key={project.id} className="col-12 col-md-4 my-2">
                                     <ProjectCard 
@@ -32,8 +32,8 @@ function ProjectSection() {
         
                     <div className="my-5">
                         <Link to="/all-projects" className="text-dark text-right">
-                            <h5>See my projects
-                                <i className="fa fa-arrow-right align-middle"></i>
+                            <h5>
+                                {/* <i className="fa fa-arrow-right align-middle"></i> */}
                             </h5>
                         </Link>
                     </div>

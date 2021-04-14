@@ -18,6 +18,7 @@ import ScrollToTop from  './components/ScrollToTop';
 import Test from './components/Test';
 
 
+
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -50,14 +51,15 @@ function App() {
           <Route exact path="/" component={HomePage} />
           <Route exact path="/contact" component={Contact} />
           {/* <Route exact path="/write-a-recommendation" component={WriteRecommendation} /> */}
-          <Route exact path="/all-projects" component={AllProjects} />
+          {/* <Route exact path="/all-projects" component={AllProjects} /> */}
           <Route exact path="/blog/add" component={AddBlog} />
           <Route exact path="/project/add" component={AddProject} />
           <Route exact path="/project/:id" component={ProjectPage} />
           <Route exact path="/blog/:id" component={BlogPage} />
           <Route exact path="/test" component={Test} />
           <Route component={HomePage} />
-        </Switch>
+          {/* <Route component={HoverPage} /> */}
+        </Switch>       
         <Footer />
     </BrowserRouter>
   </Provider>

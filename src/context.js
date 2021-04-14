@@ -36,12 +36,13 @@ export class Provider extends Component {
     projects: [
       {
         id: 1,
-        title: "Restaurant Website",
+        title: "Real Buisness Website",
         imageUrl:
-          "https://i.ibb.co/cc9K6MB/confusion.png",
-        excerpt: "This is a restaurant website...",
-        body: "I created this restaurant website, it is fully responsive and smooth.",
-        link: "https://callmeharsh.github.io/conFusionRest/index.html",
+          "https://i.ibb.co/1bVyVtx/Screenshot-from-2021-04-14-22-12-48.png",
+        excerpt: "https://i.ibb.co/hcn2Qmc/oxygen-logo.png",
+        body: "I created this website for a real client while working in DuoLivre!!",
+        link: "https://callmeharsh.github.io/documentation/",
+        
 
       },
       {
@@ -49,27 +50,46 @@ export class Provider extends Component {
         title: "Parallax Page",
         imageUrl:
           "https://i.ibb.co/DbLTV7H/paralax.png",
-        excerpt: "This is a simple page...",
+        excerpt: "https://i.ibb.co/ySNLGMJ/kisspng-css3-cascading-style-sheets-logo-html-beautify-5ae0bb6f802b43-421174781524677487525-1.png",
         body: "This is just a page I created for one of may favourate show. This page is smooth, sexy and responsive with parallax scrolling effect.",
         link: "https://callmeharsh.github.io/paralax/",
 
       },
       {
         id: 3,
-        title: "Project 3",
+        title: "Restaurant Website",
         imageUrl:
-          "https://i.ibb.co/txNTdgm/documentation.png",
-        excerpt: "This is simple documentation...",
-        body: "AAaaahh , just a simple documentation, nothing special, but it is responsive.",
-        link: "https://callmeharsh.github.io/documentation/",
+          "https://i.ibb.co/cc9K6MB/confusion.png",
+        excerpt: "https://i.ibb.co/44xp9Jm/Pin-Clipart-com-eclipse-mars-svn-353932-1.png",
+        body: "I created this restaurant website, it is fully responsive and smooth.",
+        link: "https://callmeharsh.github.io/conFusionRest/index.html",
       },
       {
         id: 4,
-        title: "Project 4",
+        title: "Food Website Design",
         imageUrl:
-          "https://storage.googleapis.com/unschool-portfolio-website/free-stock-image-1.jpg",
-        excerpt: "This is my project about...",
-        body: "Body 4",
+          "https://i.ibb.co/zNwZBHQ/Screenshot-from-2021-04-14-22-23-38.png",
+        excerpt: "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
+        body: "Aesthetic Figma Web-Design with little prototyping!",
+        link: "https://www.figma.com/file/vnXJS9iyZqSVK757cSdLCG/food-website?node-id=0%3A1",
+      },
+      {
+        id: 5,
+        title: "App Design",
+        imageUrl:
+          "https://i.ibb.co/LC33PrF/Screenshot-from-2021-04-14-22-50-57.png",
+        excerpt: "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
+        body: "Clean and profeesional looking app design with constant spacing and prototyping!",
+        link: "https://www.figma.com/file/GrOWA0RDns5fAWHXwvC6Wn/App-Design?node-id=0%3A1",
+      },
+      {
+        id: 6,
+        title: "Logo Design",
+        imageUrl:
+          "https://i.ibb.co/9p9CK1P/Screenshot-from-2021-04-14-22-54-54.png",
+        excerpt: "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
+        body: "Clean and profeesional Logo Design!",
+        link: "https://www.figma.com/proto/NBQjzpcaZ2ypsbNaOfzBtB/Logo?node-id=1%3A2&scaling=scale-down&page-id=0%3A1",
       },
     ],
     blogs: [
@@ -171,9 +191,9 @@ export class Provider extends Component {
       },
       {
         id: 6,
-        name: "MySQL",
+        name: "Figma",
         imageUrl:
-          "https://storage.googleapis.com/unschool-portfolio-website/mysql.png",
+          "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
         starsTotal: 3,
         starsActive: 2,
       },
@@ -181,9 +201,9 @@ export class Provider extends Component {
         id: 7,
         name: "Python",
         imageUrl:
-          "https://storage.googleapis.com/unschool-portfolio-website/python.png",
+          "https://i.ibb.co/hcn2Qmc/oxygen-logo.png",
         starsTotal: 3,
-        starsActive: 2,
+        starsActive: 3,
       },
       {
         id: 8,
