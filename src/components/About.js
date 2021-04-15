@@ -12,7 +12,7 @@ function About() {
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>What I can do?</h5>
               <p className="text-justify">
-              I can make websites and web apps using a variety web technologies,I can Design proffesional looking websites and vector art using figma.
+              I can make websites and web apps using a variety web technologies,I can Design professional looking websites and vector art using figma.
               </p>
             </div>
             <div className="col-12 col-md-6 px-5 pt-5">
@@ -30,7 +30,7 @@ function About() {
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>How I can help you?</h5>
               <p className="text-justify">
-                I can hep you make websites and web apps using a variety web technologies,I can manage site functionality and implement application features.
+                I can help you make websites and web apps using a variety web technologies,I can manage site functionality and implement application features.
               </p>
             </div>
           </div>

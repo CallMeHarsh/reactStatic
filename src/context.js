@@ -41,7 +41,7 @@ export class Provider extends Component {
           "https://i.ibb.co/1bVyVtx/Screenshot-from-2021-04-14-22-12-48.png",
         excerpt: "https://i.ibb.co/hcn2Qmc/oxygen-logo.png",
         body: "I created this website for a real client while working in DuoLivre!!",
-        link: "https://callmeharsh.github.io/documentation/",
+        link: "http://www.venerableintel.com",
         
 
       },
