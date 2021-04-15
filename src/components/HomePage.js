@@ -13,7 +13,7 @@ function HomePage() {
     return (
         <div>
             <Title />
-            <RecommendationSection />
+            {/* <RecommendationSection /> */}
             <ProjectSection />
             <About />
             <SkillsSection />
