@@ -68,12 +68,11 @@
 }
 
 .people {
-    padding: 5px 0;
     cursor: pointer
 }
 
 .item {
-    margin-bottom: 3px
+    margin-bottom: 2px
 }
 
 .item .box {
@@ -81,9 +80,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 135px;
+    
     position: relative;
     overflow: hidden
+}
+
+.box1{
+    min-height: 125px;
 }
 
 .item .cover {
@@ -101,10 +104,8 @@
 }
 
 .item:hover .cover {
-    opacity: 1
+    opacity: 1;
 }
-
-
 
 .item .title {
     height: 50%;

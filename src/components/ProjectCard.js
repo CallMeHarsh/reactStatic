@@ -10,7 +10,7 @@ const { id, title, excerpt, imageUrl } = props.project;
         <div className="cardbody">
           
             <div className="item">
-            <div className="box" style={{backgroundImage: "url(" + imageUrl + ")"}}>
+            <div className="box box1" style={{backgroundImage: "url(" + imageUrl + ")"}}>
           {/* <img src={ imageUrl } className="box" alt="..." /> */}
         <div className="cover">
           <h5 className="name">{ title }</h5>
