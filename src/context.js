@@ -39,7 +39,7 @@ export class Provider extends Component {
         title: "Real Buisness Website",
         imageUrl:
           "https://i.ibb.co/1bVyVtx/Screenshot-from-2021-04-14-22-12-48.png",
-        excerpt: "https://i.ibb.co/hcn2Qmc/oxygen-logo.png",
+        excerpt: "https://i.ibb.co/3sX9yCy/index-removebg-preview.png",
         body: "I created this website for a real client while working in DuoLivre!!",
         link: "http://www.venerableintel.com",
         
