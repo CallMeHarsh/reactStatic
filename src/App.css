@@ -37,6 +37,7 @@
 }
 
 .cardbody {
+    overflow: hidden; /* Hide scrollbars */
     background-color:  rgba(31, 148, 255, 0.75);;
     /* background-image: linear-gradient(#e2e2e2, #9196ca); */
     background-repeat: no-repeat;
