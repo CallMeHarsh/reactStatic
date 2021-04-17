@@ -4,7 +4,7 @@ import smokeLogo1 from "../assets/smokeLogo1.png";
 
 function Navbar() {
     return(
-        <nav className="navbar navbar-expand-sm fixed-top bg-white">
+        <nav className="navbar navbar-expand-sm fixed-top bg-light">
         <div className="container my-2">
             <Link to="/" className="navbar-brand text-dark font-weight-bold">
             <span><img src={smokeLogo1} width="50" height="30" alt="" loading="lazy" /></span> Home

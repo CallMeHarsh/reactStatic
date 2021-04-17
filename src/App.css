@@ -80,11 +80,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    transition: transform .5s ease;
     position: relative;
     overflow: hidden
 }
 
+.item:hover .box{
+    transform: scale(1.2);
+}
 .box1{
     min-height: 155px;
 }
