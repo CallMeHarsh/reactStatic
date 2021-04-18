@@ -11,7 +11,7 @@ import RecommendationSection from './RecommendationSection';
 function HomePage() {
     return (
         <div>
-            {/* <Title /> */}
+            <Title />
             {/* <RecommendationSection /> */}
             <ProjectSection />
             <About />
