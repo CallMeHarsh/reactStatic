@@ -1,41 +1,76 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
+import { db } from "../firebase";
 
-class Contact extends Component {
-  state = {
-    name: "",
-    email: "",
-    description: "",
-    submitMessage: "",
-    submitMessageTextColor: "",
-  };
+// class Contact extends Component {
+//   state = {
+//     name: "",
+//     email: "",
+//     description: "",
+//     submitMessage: "",
+//     submitMessageTextColor: "",
+//   };
 
-  onChange = (event) => {
-    this.setState({
-      [event.target.name]: event.target.value,
-    });
-  };
+//   onChange = (event) => {
+//     this.setState({
+//       [event.target.name]: event.target.value,
+//     });
+//   };
 
-  onSubmit = (event) => {
-    event.preventDefault();
+//   onSubmit = (event) => {
+//     event.preventDefault();
 
-    let isSuccessful = true;
-    const { name } = this.state;
+//     let isSuccessful = true;
+//     const { name } = this.state;
 
-    if (isSuccessful) {
-      this.setState({
-        submitMessage: `Thank you ${name}. I will contact you soon!`,
-        submitMessageTextColor: "text-info",
-      });
-    } else {
-      this.setState({
-        submitMessage: "Oops! Something went wrong. Please try again later :(",
-        submitMessageTextColor: "text-danger",
-      });
-    }
-  };
+//     if (isSuccessful) {
+//       this.setState({
+//         submitMessage: `Thank you ${name}. I will contact you soon!`,
+//         submitMessageTextColor: "text-info",
+//       });
+//     } else {
+//       this.setState({
+//         submitMessage: "Oops! Something went wrong. Please try again later :(",
+//         submitMessageTextColor: "text-danger",
+//       });
+//     }
+//   };
 
-  render() {
-    const { submitMessageTextColor, submitMessage } = this.state;
+//   render() {
+//     const { submitMessageTextColor, submitMessage } = this.state;
+
+  const Contact = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const [loader, setLoader] = useState(false);
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      setLoader(true);
+
+      db.collection("contacts")
+        .add({
+          name: name,
+          email: email,
+          message: message,
+        })
+        .then(() => {
+          alert("Message has been Submitted !!!");
+          setLoader(false);
+        })
+        .catch((error) => {
+          alert(error.message);
+          setLoader(false);
+        });
+
+        setName("");
+        setMessage("");
+        setEmail("");
+
+
+
+    };
     return (
       <div className="container my-5 py-5">
         <h1 className="font-weight-light text-center py-5">
@@ -43,53 +78,56 @@ class Contact extends Component {
         </h1>
         <div className="row justify-content-center">
           <div className="col-11 col-lg-5">
-            <form onSubmit={this.onSubmit}>
+            <form className="px-5 mx-5" onSubmit={handleSubmit}>
               <div className="form-group">
-                <label htmlFor="name">Name *</label>
+                <label>Name *</label>
                 <input
-                  type="text"
-                  name="name"
+                  placeholder="Name"
+                  value={name}
                   className="form-control"
-                  onChange={this.onChange}
+                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
+
               <div className="form-group">
-                <label htmlFor="email">Email *</label>
+                <label>Email *</label>
                 <input
-                  type="email"
-                  name="email"
+                  placeholder="Email"
+                  value={email}
                   className="form-control"
-                  onChange={this.onChange}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
+
               <div className="form-group">
-                <label htmlFor="description">
+                <label>
                   Tell me about your project *
                 </label>
                 <textarea
+                  placeholder="Message"
+                  value={message}
                   className="form-control"
-                  name="description"
-                  rows="5"
-                  onChange={this.onChange}
+                  onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
               </div>
+              
               <button
                 type="submit"
                 className="btn btn-dark float-right"
-                style={{ backgroundColor: "black" }}
+                style={{ backgroundColor: loader ? "black" : "green"}}
               >
                 Let's talk business
               </button>
             </form>
           </div>
         </div>
-
+{/* 
         <div className="py-5 mx-2 text-center">
           <h5 className={submitMessageTextColor}>{submitMessage}</h5>
-        </div>
+        </div> */}
       </div>
     );
   }
-}
+
 
 export default Contact;
