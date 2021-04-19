@@ -28,7 +28,7 @@ function Footer() {
 
                 </div>
                 <div className="col-12 col-md-4 text-light text-justify py-3">
-                If you are intrested feel free to contact me and tell ma about your project, I would love to hear. I am a designer too! Also if you face any errors on site, please tell me! Good day ;)
+                If you are intrested feel free to contact me and tell me about your project in Contact me section , I would love to hear. I am a designer too! Also if you face any errors on site, please tell me! Good day ;)
                     <p></p><p></p>
                     <p class="text-info font-bold">Special Thanks to Gaurav for Creating that cool logo in navbar!!</p>
                     <p class="text-info font-italic">Want a cool logo for your web site?<br></br>Contact Gaurav: <span><u>+91 930064 40760</u></span></p>
