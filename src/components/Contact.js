@@ -1,133 +1,118 @@
-import React, { useState } from "react";
-import { db } from "../firebase";
+import React, {useState} from 'react';
+import emailjs from 'emailjs-com';
 
-// class Contact extends Component {
-//   state = {
-//     name: "",
-//     email: "",
-//     description: "",
-//     submitMessage: "",
-//     submitMessageTextColor: "",
-//   };
 
-//   onChange = (event) => {
-//     this.setState({
-//       [event.target.name]: event.target.value,
-//     });
-//   };
 
-//   onSubmit = (event) => {
-//     event.preventDefault();
+function ContactUs() {
 
-//     let isSuccessful = true;
-//     const { name } = this.state;
+  const [loader, setLoader] = useState(false);
 
-//     if (isSuccessful) {
-//       this.setState({
-//         submitMessage: `Thank you ${name}. I will contact you soon!`,
-//         submitMessageTextColor: "text-info",
-//       });
-//     } else {
-//       this.setState({
-//         submitMessage: "Oops! Something went wrong. Please try again later :(",
-//         submitMessageTextColor: "text-danger",
-//       });
-//     }
-//   };
+  function sendEmail(e) {
+    e.preventDefault();
+    setLoader(true);
 
-//   render() {
-//     const { submitMessageTextColor, submitMessage } = this.state;
 
-  const Contact = () => {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
-
-    const [loader, setLoader] = useState(false);
-
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      setLoader(true);
-
-      db.collection("contacts")
-        .add({
-          name: name,
-          email: email,
-          message: message,
-        })
-        .then(() => {
-          alert("Message has been Submitted !!!");
+    emailjs.sendForm('service_txty6as', 'template_chun92i', e.target, 'user_ycxTVV07zdKbn4oqbyERb')
+      .then((result) => {
+          console.log(result.text);
+          alert("Message recieved !!!");
           setLoader(false);
-        })
-        .catch((error) => {
-          alert(error.message);
-          setLoader(false);
-        });
+      }, 
+      (error) => {
+          console.log(error.text);
+          setLoader(true);
 
-        setName("");
-        setMessage("");
-        setEmail("");
-
-
-
-    };
-    return (
-      <div className="container my-5 py-5">
-        <h1 className="font-weight-light text-center py-5">
-          <span className="text-info">Thank you! </span>for your interest
-        </h1>
-        <div className="row justify-content-center">
-          <div className="col-11 col-lg-5">
-            <form className="px-5 mx-5" onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label>Name *</label>
-                <input
-                  placeholder="Name"
-                  value={name}
-                  className="form-control"
-                  onChange={(e) => setName(e.target.value)}
-                />
-              </div>
-
-              <div className="form-group">
-                <label>Email *</label>
-                <input
-                  placeholder="Email"
-                  value={email}
-                  className="form-control"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-
-              <div className="form-group">
-                <label>
-                  Tell me about your project *
-                </label>
-                <textarea
-                  placeholder="Message"
-                  value={message}
-                  className="form-control"
-                  onChange={(e) => setMessage(e.target.value)}
-                ></textarea>
-              </div>
-              
-              <button
-                type="submit"
-                className="btn btn-dark float-right"
-                style={{ backgroundColor: loader ? "black" : "green"}}
-              >
-                Let's talk business
-              </button>
-            </form>
-          </div>
-        </div>
-{/* 
-        <div className="py-5 mx-2 text-center">
-          <h5 className={submitMessageTextColor}>{submitMessage}</h5>
-        </div> */}
-      </div>
-    );
+      });
+      e.target.reset()
   }
 
+  // function myFunction() {
+  //   alert("Your Message Is recieved !!")
+  //     }
+  
 
-export default Contact;
+  return (
+    <div className="container my-5 py-5">
+    <h1 className="font-weight-light text-center py-5">
+      <span className="text-info">Thank you! </span>for your interest
+    </h1>
+    <div className="row justify-content-center">
+      <div className="col-11 col-lg-5">
+     <form className="contact-form bg-light" onSubmit={sendEmail}>
+
+
+
+      <input type="hidden" name="contact_number" />
+      <div className="form-group">
+      <label>Name</label>
+      <input type="text" placeholder="Enter name" className="form-control" name="name" />
+      </div>
+      <div className="form-group">
+      <label>Email</label>
+      <input type="email" placeholder="Enter email" className="form-control" name="email" />    
+      </div>
+      <div className="form-group">
+      <label>Message</label>
+      <textarea placeholder="Tell me about your project or leave a little message :)" className="form-control" name="message"/>
+      </div>
+      <input type="submit" value="Send" className="btn btn-dark float-right" style={{ backgroundColor: "black"}}/>
+     </form>
+
+
+
+      </div>
+      </div>
+      </div>
+
+);
+}
+
+
+export default ContactUs;
+
+{/* <div className="container my-5 py-5">
+<h1 className="font-weight-light text-center py-5">
+  <span className="text-info">Thank you! </span>for your interest
+</h1>
+<div className="row justify-content-center">
+  <div className="col-11 col-lg-5">
+    <form className="px-5 mx-5" onSubmit={sendEmail}>
+      <div className="form-group">
+        <label>Name *</label>
+        <input
+          placeholder="Name"
+         
+          className="form-control"
+          
+        />
+      </div>
+
+      <div className="form-group">
+        <label>Email *</label>
+        <input
+          placeholder="Email"
+          className="form-control"
+        />
+      </div>
+
+      <div className="form-group">
+        <label>
+          Tell me about your project *
+        </label>
+        <textarea
+          placeholder="Message"
+          className="form-control"
+        ></textarea>
+      </div>
+      
+      <button
+        type="submit"
+        className="btn btn-dark float-right"
+        style={{ backgroundColor: "black"}}
+      >
+        Let's talk business
+      </button>
+    </form>
+  </div>
+</div> */}
+    

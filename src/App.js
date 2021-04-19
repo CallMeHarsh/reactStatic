@@ -16,6 +16,8 @@ import { Provider } from './context';
 import AllProjects from './components/AllProjects';
 import ScrollToTop from  './components/ScrollToTop';
 import Test from './components/Test';
+import emailjs from 'emailjs-com';
+
 
 
 
