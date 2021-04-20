@@ -19,12 +19,14 @@ function Footer() {
                     <a href="/" className="text-light d-block">Blogs</a>
                     <a href="/" className="text-light d-block">Home</a>
                     <a href="/" className="text-light d-block">Projects</a>
-                    <Link to="/contact" className="text-light d-block">Contact me</Link>
-                    <Link to="/write-a-recommendation" className="text-light d-block">
+                    <Link to="/contact" className="text-light d-block">Contact me
+                    <i className="fa fa-heart text-light"></i>
+                    </Link>
+                    {/* <Link to="/write-a-recommendation" className="text-light d-block">
                         Write a recommendation <i className="fa fa-heart text-light">
 
                         </i>
-                    </Link>
+                    </Link> */}
 
                 </div>
                 <div className="col-12 col-md-4 text-light text-justify py-3">

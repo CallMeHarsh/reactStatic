@@ -16,7 +16,8 @@ import { Provider } from './context';
 import AllProjects from './components/AllProjects';
 import ScrollToTop from  './components/ScrollToTop';
 import Test from './components/Test';
-import emailjs from 'emailjs-com';
+import ReactGa from 'react-ga';
+import { BrowserRouter as Router } from 'react-router-dom' 
 
 
 
@@ -29,6 +30,13 @@ function App() {
       setLoading(false)
     }, 2000)
   }, [])
+
+  useEffect(() => {
+    ReactGa.initialize('G-G2LKZFZ3RM')
+
+    //to report page view
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  })
   return (
   <div className="App">
     {
