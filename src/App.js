@@ -32,10 +32,10 @@ function App() {
   }, [])
 
   useEffect(() => {
-    ReactGa.initialize('G-G2LKZFZ3RM')
+    ReactGa.initialize('G-G2LKZFZ3RM');
 
     //to report page view
-    ReactGa.pageview('/')
+    ReactGa.pageview(window.location.pathname + window.location.search);
   }, [])
   return (
   <div className="App">
