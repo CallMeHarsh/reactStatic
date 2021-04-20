@@ -36,7 +36,7 @@ function App() {
 
     //to report page view
     ReactGa.pageview('/')
-  })
+  }, [])
   return (
   <div className="App">
     {
