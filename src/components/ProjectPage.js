@@ -11,11 +11,12 @@ function ProjectPage(props) {
         const project = projects.filter((project) => project.id == id)[0];
         const { imageUrl, title, body, link } = project;
         return (
-          <div className="container py-5 my-5 markdown">
-            <div className="justify-content-center">
-              <img src={imageUrl} alt={title} className="w-100" />
-            </div>
+          <div className="container py-5 my-5 markdown ">
             <h1 className="font-weight-light text-center my-5">{title}</h1>
+            <div className="justify-content-center">
+              <img src={imageUrl} alt={title} className="w-50 projectpic" />
+            </div>
+            
             <ReactMarkdown source={body} />
             <h1><a href={link} target="_blank" className="font-weight-light text-info">Take a look!</a></h1>
           </div>

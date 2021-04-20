@@ -51,7 +51,7 @@ export class Provider extends Component {
         imageUrl:
           "https://i.ibb.co/DbLTV7H/paralax.png",
         excerpt: "https://i.ibb.co/ySNLGMJ/kisspng-css3-cascading-style-sheets-logo-html-beautify-5ae0bb6f802b43-421174781524677487525-1.png",
-        body: "This is just a page I created for one of may favourate show. This page is smooth, sexy and responsive with parallax scrolling effect.",
+        body: "This is just a page I created for one of my favourate show. This page is smooth and responsive with parallax scrolling effect.",
         link: "https://callmeharsh.github.io/paralax/",
 
       },
@@ -79,7 +79,7 @@ export class Provider extends Component {
         imageUrl:
           "https://i.ibb.co/LC33PrF/Screenshot-from-2021-04-14-22-50-57.png",
         excerpt: "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
-        body: "Clean and profeesional looking app design with constant spacing and prototyping!",
+        body: "Clean and professional looking app design with constant spacing and prototyping!",
         link: "https://www.figma.com/file/GrOWA0RDns5fAWHXwvC6Wn/App-Design?node-id=0%3A1",
       },
       {
@@ -88,7 +88,7 @@ export class Provider extends Component {
         imageUrl:
           "https://i.ibb.co/9p9CK1P/Screenshot-from-2021-04-14-22-54-54.png",
         excerpt: "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
-        body: "Clean and profeesional Logo Design!",
+        body: "Clean and professional Logo Design!",
         link: "https://www.figma.com/proto/NBQjzpcaZ2ypsbNaOfzBtB/Logo?node-id=1%3A2&scaling=scale-down&page-id=0%3A1",
       },
     ],

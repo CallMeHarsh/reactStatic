@@ -36,6 +36,11 @@
     height: 100vh;
 }
 
+.projectpic{
+    display: block;
+    margin: auto;
+}
+
 .cardbody {
     overflow: hidden; /* Hide scrollbars */
     background-color:  rgba(31, 148, 255, 0.75);;
