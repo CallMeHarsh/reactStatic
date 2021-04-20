@@ -35,7 +35,7 @@ function App() {
     ReactGa.initialize('G-G2LKZFZ3RM')
 
     //to report page view
-    ReactGa.pageview(window.location.pathname + window.location.search)
+    ReactGa.pageview('/')
   })
   return (
   <div className="App">
