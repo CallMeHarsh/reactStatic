@@ -12,13 +12,12 @@ function ProjectPage(props) {
         const { imageUrl, title, body, link } = project;
         return (
           <div className="container py-5 my-5 markdown ">
-            <h1 className="font-weight-light text-center my-5">{title}</h1>
+            <h1 className="font-weight-light text-center my-5 text-warning">{title}</h1>
             <div className="justify-content-center">
-              <img src={imageUrl} alt={title} className="w-50 projectpic" />
+              <img src={imageUrl} alt={title} className="w-25 projectpic" />
             </div>
-            
-            <ReactMarkdown source={body} />
-            <h1><a href={link} target="_blank" className="font-weight-light text-info">Take a look!</a></h1>
+            <p className="text-light">{body}</p>
+            <h1><a href={link} target="_blank" className="font-weight-light text-info">See Detailed Repo/Website</a></h1>
           </div>
         );
       }}

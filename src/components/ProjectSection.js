@@ -9,9 +9,10 @@ function ProjectSection() {
         {(value) => {
             const {projects} = value;
     return(
-        <div className="container text-center my-5" id="project">
-                    <h1 className="font-weight-light"><span className="text-info">My</span> Projects</h1>
-                    <div className="lead py-3">I build products, just like this website</div>
+        <div className="pb">
+        <div className="container text-center my-0 py-5" id="project">
+                    <h1 className="font-weight-light text-light"><span className="text-warning">My</span> Projects</h1>
+                    <div className="lead py-3 text-light">I build products, just like this website</div>
                     <div className="row my-5 pt-3">
                             {
                             projects.slice(0, 6).map((project) =>
@@ -37,6 +38,7 @@ function ProjectSection() {
                             </h5>
                         </Link>
                     </div>
+                </div>
                 </div>
             );
         }  }

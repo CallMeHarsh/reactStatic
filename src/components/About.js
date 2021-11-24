@@ -12,7 +12,7 @@ function About() {
             <div className="col-12 col-md-6 px-5 pt-5">
               <h5>What I can do?</h5>
               <p className="text-justify">
-              I can make websites and web apps using a variety web technologies,I can Design professional looking websites and vector art using figma.
+              I am fluent in programming languages like Python, C++, C, Golang, JavaScript. I work on developing applications and websites using my skills and I keep learning new things in technology.
               </p>
             </div>
             <div className="col-12 col-md-6 px-5 pt-5">
@@ -28,9 +28,9 @@ function About() {
               </p>
             </div>
             <div className="col-12 col-md-6 px-5 pt-5">
-              <h5>How I can help you?</h5>
+              <h5>Career Goals?</h5>
               <p className="text-justify">
-                I can help you make websites and web apps using a variety web technologies,I can manage site functionality and implement application features.
+                I want to associate myself with an organisation which will help to grow and learn as much as possible. At the same time I would like to contribute as much as I can to society through tech in a positive way :)
               </p>
             </div>
           </div>

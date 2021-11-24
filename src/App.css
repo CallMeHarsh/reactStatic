@@ -10,6 +10,34 @@
     background-color:rgba(31, 148, 255, 0.75);
 }
 
+.pb{
+    background-color: rgb(39, 38, 41) ;
+}
+
+.fa:hover{
+    color: #FFC107 !important;
+}
+
+.navbar{
+    background-color: rgb(6, 6, 8) !important;
+}
+.card{
+    background-color:rgb(39, 38, 41) !important;
+}
+
+.formpage{
+    background-color: #F8F9FA;
+}
+.new{
+    background-color: #FFC107;
+}
+.rec{
+    background-color: #FFC107;
+}
+.blog{
+    background-color: rgb(39, 38, 41);
+}
+
 .markdown img {
     display: block;
     max-width: 100%;
@@ -18,7 +46,7 @@
 
 .App {
     text-align: center;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(6, 6, 8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +56,7 @@
 
 .App-header{
     text-align: center;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(39, 38, 41);
     /* display: flex; */
     justify-content: center;
     align-items: center;

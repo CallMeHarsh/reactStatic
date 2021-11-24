@@ -36,60 +36,60 @@ export class Provider extends Component {
     projects: [
       {
         id: 1,
-        title: "Real Buisness Website",
+        title: "Voice Assistant (Windows)",
         imageUrl:
-          "https://i.ibb.co/1bVyVtx/Screenshot-from-2021-04-14-22-12-48.png",
-        excerpt: "https://i.ibb.co/3sX9yCy/index-removebg-preview.png",
-        body: "I created this website for a real client while working in DuoLivre!!",
-        link: "http://www.venerableintel.com",
+          "https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/Siri-Alexa-Google-Assistant-Apple-Amazon-Voice-Assistant-A.I.-Artificial-Intelligence-Machine-Learning-Dice-1024x640.png",
+        excerpt: "https://i.ibb.co/tJJgkZb/pngaaa-com-3594435.png",
+        body: "Have you ever wondered how cool it would be to have your own A.I. assistant? Imagine how easier it would be to send emails without typing a single word, doing Wikipedia searches without opening web browsers, and performing many other daily tasks like playing music with the help of a single voice command. In this tutorial, I will teach you how you can make your personal A.I. assistant using Python. ",
+        link: "https://github.com/CallMeHarsh/voiceAssistant",
         
 
       },
       {
         id: 2,
-        title: "Parallax Page",
+        title: "Django Authentication System",
         imageUrl:
-          "https://i.ibb.co/DbLTV7H/paralax.png",
-        excerpt: "https://i.ibb.co/ySNLGMJ/kisspng-css3-cascading-style-sheets-logo-html-beautify-5ae0bb6f802b43-421174781524677487525-1.png",
-        body: "This is just a page I created for one of my favourate show. This page is smooth and responsive with parallax scrolling effect.",
-        link: "https://callmeharsh.github.io/paralax/",
+          "https://s3.amazonaws.com/gdb-blog/images/graphenedb-security.png",
+        excerpt: "https://i.ibb.co/tJJgkZb/pngaaa-com-3594435.png",
+        body: "This application allows user to create account and sends an activation email automatically to user's email account.",
+        link: "https://github.com/CallMeHarsh/djangoAuthentication",
 
       },
       {
         id: 3,
-        title: "Restaurant Website",
+        title: "Chat Room",
         imageUrl:
-          "https://i.ibb.co/cc9K6MB/confusion.png",
-        excerpt: "https://i.ibb.co/44xp9Jm/Pin-Clipart-com-eclipse-mars-svn-353932-1.png",
-        body: "I created this restaurant website, it is fully responsive and smooth.",
-        link: "https://callmeharsh.github.io/conFusionRest/index.html",
+          "https://image.freepik.com/free-vector/mobile-online-chat-meeting-man-chat-online-with-woman-via-internet-online-minimal-design_33800-249.jpg",
+        excerpt: "https://i.ibb.co/tJJgkZb/pngaaa-com-3594435.png",
+        body: "TCP  chat room created for multiple users/clients who can connect a main server and start chatting!",
+        link: "https://github.com/CallMeHarsh/TCP-Chat-Room",
       },
       {
         id: 4,
-        title: "Food Website Design",
+        title: "SMTP Email Client",
         imageUrl:
-          "https://i.ibb.co/zNwZBHQ/Screenshot-from-2021-04-14-22-23-38.png",
-        excerpt: "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
-        body: "Aesthetic Figma Web-Design with little prototyping!",
-        link: "https://www.figma.com/file/vnXJS9iyZqSVK757cSdLCG/food-website?node-id=0%3A1",
+          "https://cdn.optinmonster.com/wp-content/uploads/2019/07/smtp-services-2.png",
+          excerpt: "https://i.ibb.co/tJJgkZb/pngaaa-com-3594435.png",
+        body: "This email client sends email to desired account along with attachments as well",
+        link: "https://github.com/CallMeHarsh/SMTP-MailClient",
       },
       {
         id: 5,
-        title: "App Design",
+        title: "Barbados Website",
         imageUrl:
-          "https://i.ibb.co/LC33PrF/Screenshot-from-2021-04-14-22-50-57.png",
-        excerpt: "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
-        body: "Clean and professional looking app design with constant spacing and prototyping!",
-        link: "https://www.figma.com/file/GrOWA0RDns5fAWHXwvC6Wn/App-Design?node-id=0%3A1",
+          "https://ml7ahsd4g6sw.i.optimole.com/rNdCg3w-QT3LcgFs/w:534/h:534/q:auto/https://duolivre.com/wp-content/uploads/2021/06/BarbadosLacrosse.png",
+        excerpt: "https://i.ibb.co/3sX9yCy/index-removebg-preview.png",
+        body: "I(along with my team) worked on this website while I was associated with DuoLivre LLC(https://duolivre.com/)",
+        link: "http://barbadoslacrosse.org/",
       },
       {
         id: 6,
-        title: "Logo Design",
+        title: "Covid-19 Tracker",
         imageUrl:
-          "https://i.ibb.co/9p9CK1P/Screenshot-from-2021-04-14-22-54-54.png",
-        excerpt: "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
-        body: "Clean and professional Logo Design!",
-        link: "https://www.figma.com/proto/NBQjzpcaZ2ypsbNaOfzBtB/Logo?node-id=1%3A2&scaling=scale-down&page-id=0%3A1",
+          "https://i.ibb.co/m0TN96c/Screenshot-from-2021-11-23-23-36-33.png",
+        excerpt: "https://storage.googleapis.com/unschool-portfolio-website/react.png",
+        body: "This app fetches information from API and then the data is parsed and displayed using Material UI",
+        link: "https://covid19statswebsite.netlify.app/",
       },
     ],
     blogs: [
@@ -118,39 +118,59 @@ export class Provider extends Component {
         body: "Is it possible to spend your life having adventures, but still make meaningful accomplishments? The answer to this question matters to me because, like many of you, I’d like to have both.The challenge is that most advice-givers put the two in either-or categories. Being good requires focus, perhaps decades of it. The world tends to rewards people with painstakingly developed talent, not perpetual dabblers.But while I’d like to sustain such a Newportian focus in my life, I crave variety. Psychological time depends on it, so living adventurously may be the secret to compressing the most life into the brief time we have.Is it possible to have both adventure and accomplishment?Most people tend to fall into one category. There are hard-focusing achievement-oriented people. The kind who studied hard all through school but rarely went to parties. And then there are novelty-seeking adventurers who are a lot of fun but often lag years behind their more ambitious peers.One way to explain this clustering is that the two life approaches really are mutually exclusive. The traits and beliefs to fulfill one naturally omit the other. Like being a jockey or a basketball player, the attributes to be good at one contradict the other.However looking deeper, I’ve managed to find many people who don’t fit the pattern. People who seem to possess both in great enough quantities that the two philosophies may not contradict.Richard Feynman is a perfect example. He was a Nobel-laureate and physicist on the Manhattan project. But he was also a painter, lock-picker and bongo player, fluent in Portuguese. I highly recommend his autobiography.This leads me to another explanation for the clustering. People tend to be either ambitious or adventurous, not because those philosophies contradict, but because the attributes you need to be good at one are different.Instead of a jockey or basketball player, it may be closer to being a basketball player and a pianist. It’s not that one skill hurts the other, but simply that the two are orthogonal",
       },
     ],
+    domains: [
+      {
+        id: 1,
+        title: "Backend Projects",
+        imageUrl:
+          "https://miro.medium.com/max/2400/1*efVrgtmFdRDOFtS4Hg12mw.png",
+        excerpt: "https://i.ibb.co/tJJgkZb/pngaaa-com-3594435.png",
+        body: "this website for a real client while working in DuoLivre!!",
+        link: "http://www.venerableintel.com",
+        
+
+      },
+      {
+        id: 2,
+        title: "Frontend Projects",
+        imageUrl:
+          "https://miro.medium.com/max/1400/1*Y4Td-XMRtuFAW_8CpO7KyA.png",
+        excerpt: "https://i.ibb.co/ySNLGMJ/kisspng-css3-cascading-style-sheets-logo-html-beautify-5ae0bb6f802b43-421174781524677487525-1.png",
+        body: "This is just a page I created for one of my favourate show. This page is smooth and responsive with parallax scrolling effect.",
+        link: "https://callmeharsh.github.io/paralax/",
+
+      },
+
+    ],
     recommendations: [
-      // {
-      //   id: 1,
-      //   name: "Forget",
-      //   company: "",
-      //   designation: "",
-      //   message: "",
-      // },
-      // {
-      //   id: 2,
-      //   name: "the",
-      //   company: "",
-      //   designation: "",
-      //   message: "",
-      // },
-      // {
-      //   id: 3,
-      //   name: "failures",
-      //   company: "",
-      //   designation: "",
-      //   message: "",
-      // },
-      // {
-      //   id: 4,
-      //   name: "Random guy 4",
-      //   company: "ABC company",
-      //   designation: "SDE",
-      //   message: "He gets things done so quickly",
-      // },
+      {
+        id: 1,
+        name: "Christina Park",
+        company: "DuoLivre LLC",
+        designation: "Founder",
+        message: "Harsh was a front-end web developer at my company, DuoLivre, LLC (currently on hiatus.) Harsh is a fast learner. Furthermore, he is very good at researching and implementing ways to complete common project tasks in less time - a great asset for any company to have. If you are looking for a web developer for your team, I can wholly recommend Harsh for these reasons",
+      },
+      
     ],
     skills: [
       {
         id: 1,
+        name: "Python",
+        imageUrl:
+          "https://i.ibb.co/tJJgkZb/pngaaa-com-3594435.png",
+        starsTotal: 3,
+        starsActive: 3,
+      },
+      {
+        id: 2,
+        name: "Python",
+        imageUrl:
+          "https://miro.medium.com/max/1400/1*Ifpd_HtDiK9u6h68SZgNuA.png",
+        starsTotal: 3,
+        starsActive: 3,
+      },
+      {
+        id: 3,
         name: "HTML5",
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/html5.png",
@@ -158,7 +178,7 @@ export class Provider extends Component {
         starsActive: 3,
       },
       {
-        id: 2,
+        id: 4,
         name: "CSS3",
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/css3.png",
@@ -166,7 +186,7 @@ export class Provider extends Component {
         starsActive: 3,
       },
       {
-        id: 3,
+        id: 5,
         name: "Javascript",
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/javascript.png",
@@ -174,7 +194,7 @@ export class Provider extends Component {
         starsActive: 2,
       },
       {
-        id: 4,
+        id: 6,
         name: "Bootstrap 4",
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/bootstrap4.png",
@@ -182,7 +202,7 @@ export class Provider extends Component {
         starsActive: 3,
       },
       {
-        id: 5,
+        id: 7,
         name: "React",
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/react.png",
@@ -190,28 +210,12 @@ export class Provider extends Component {
         starsActive: 2,
       },
       {
-        id: 6,
+        id: 8,
         name: "Figma",
         imageUrl:
           "https://i.ibb.co/KxgrfvL/kisspng-user-interface-design-figma-computer-software-user-5b224261078575-0726675615289718730308.png",
         starsTotal: 3,
         starsActive: 2,
-      },
-      {
-        id: 7,
-        name: "Python",
-        imageUrl:
-          "https://i.ibb.co/hcn2Qmc/oxygen-logo.png",
-        starsTotal: 3,
-        starsActive: 3,
-      },
-      {
-        id: 8,
-        name: "Flask",
-        imageUrl:
-          "https://storage.googleapis.com/unschool-portfolio-website/flask.png",
-        starsTotal: 3,
-        starsActive: 1,
       },
     ],
   };

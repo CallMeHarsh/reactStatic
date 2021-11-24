@@ -18,7 +18,7 @@ function HomePage() {
             <ProjectSection />
             <About />
             <SkillsSection />
-            <BlogSection />
+            {/* <BlogSection /> */}
         </div>
     )
 }

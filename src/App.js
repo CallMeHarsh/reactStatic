@@ -22,21 +22,26 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 
 
+
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
+    ReactGa.initialize('G-JFNJTHNX0Y');
+
+    //to report page view
+    ReactGa.pageview(window.location.pathname + window.location.search);
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
     }, 2000)
   }, [])
 
-  useEffect(() => {
-    ReactGa.initialize('G-G2LKZFZ3RM');
+  // useEffect(() => {
+  //   ReactGa.initialize('G-JFNJTHNX0Y');
 
-    //to report page view
-    ReactGa.pageview(window.location.pathname + window.location.search);
-  }, [])
+  //   //to report page view
+  //   ReactGa.pageview(window.location.pathname + window.location.search);
+  // }, [])
   return (
   <div className="App">
     {

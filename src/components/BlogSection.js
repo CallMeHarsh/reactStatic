@@ -9,11 +9,12 @@ function BlogSection() {
       {(value) => {
         const { blogs } = value;
         return (
-          <div className="container text-center my-5" id="blog">
-            <h1 className="font-weight-light">
-              My <span className="text-info">Blogs</span>
+          <div className="new">
+          <div className="container blog text-center my-5" id="blog">
+            <h1 className="font-weight-light text-light">
+              My <span className="text-warning">Blogs</span>
             </h1>
-            <div className="lead">
+            <div className="lead text-light">
               I share my views on various topics related in these blogs
             </div>
             <div className="row my-5 pt-3">
@@ -31,6 +32,7 @@ function BlogSection() {
                 </h5> */}
               </Link>
             </div>
+          </div>
           </div>
         );
       }}
