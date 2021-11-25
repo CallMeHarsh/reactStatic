@@ -6,7 +6,7 @@ function Navbar() {
     return(
         <nav className="navbar navbar-expand-sm fixed-top">
         <div className="container my-2">
-            <Link to="https://callmeharsh.github.io/reactStatic/" className="navbar-brand text-warning font-weight-bold">
+            <Link to="/" className="navbar-brand text-warning font-weight-bold">
             <span><img src={logo} width="50" height="30" alt="" loading="lazy" /></span> Home
                 </Link>
                 <Link to="/contact" className="ml-auto mx-3">
