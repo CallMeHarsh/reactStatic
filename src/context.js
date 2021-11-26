@@ -40,7 +40,7 @@ export class Provider extends Component {
         imageUrl:
           "https://2e8ram2s1li74atce18qz5y1-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/Siri-Alexa-Google-Assistant-Apple-Amazon-Voice-Assistant-A.I.-Artificial-Intelligence-Machine-Learning-Dice-1024x640.png",
         excerpt: "https://i.ibb.co/tJJgkZb/pngaaa-com-3594435.png",
-        body: "Have you ever wondered how cool it would be to have your own A.I. assistant? Imagine how easier it would be to send emails without typing a single word, doing Wikipedia searches without opening web browsers, and performing many other daily tasks like playing music with the help of a single voice command. In this tutorial, I will teach you how you can make your personal A.I. assistant using Python. ",
+        body: "Have you ever wondered how cool it would be to have your own A.I. assistant? Imagine how easier it would be to send emails without typing a single word, doing Wikipedia searches without opening web browsers, and performing many other daily tasks like playing music with the help of a single voice command.",
         link: "https://github.com/CallMeHarsh/voiceAssistant",
         
 
