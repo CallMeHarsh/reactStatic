@@ -16,7 +16,7 @@ function Footer() {
             <div className="row">
                 <div className="col-12 col-md-4 py-3">
                     <h5 className="text-warning pb-3">More Links</h5>
-                    <a href="/" className="text-light d-block">Blogs</a>
+                    {/* <a href="/" className="text-light d-block">Blogs</a> */}
                     <a href="/" className="text-light d-block">Home</a>
                     <a href="/" className="text-light d-block">Projects</a>
                     <Link to="/contact" className="text-light d-block">Contact me

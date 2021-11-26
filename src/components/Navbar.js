@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import Resume from "../assets/Resume.pdf";
+
 
 function Navbar() {
     return(
@@ -23,8 +25,8 @@ function Navbar() {
                     <div className="navbar-nav">
                     <a href="#project" className="nav-item nav-link text-light 
                         h6 mx-1 my-auto">Projects</a>
-                        <a href="#blog" className="nav-item nav-link text-light 
-                        h6 mx-1 my-auto">Blogs</a>
+                        <Link to={Resume} download target="_blank" className="nav-item nav-link text-light 
+                        h6 mx-1 my-auto">Resume</Link>
                     </div>
                 </div>
         </div>
